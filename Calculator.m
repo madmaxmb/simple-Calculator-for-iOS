@@ -44,7 +44,6 @@ int step = 10;
     
     if (!operation) {
         firstOperand = NAN;
-//        result = NAN;
     }
     
     if (secondOperand != 0) {
@@ -107,7 +106,6 @@ int step = 10;
     if (operation != nil) {
         result = [operation calculate:firstOperand withSecondOperand:secondOperand];
         firstOperand = result;
-        operation = nil;
     }
     operation = nil;
     withDot = NO;
